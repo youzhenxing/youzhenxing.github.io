@@ -93,11 +93,17 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: cactus
+
+mathjax:
+  enable: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+# https://github.com/youzhenxing/youzhenxing.github.io.git
+# git@github.com:youzhenxing/youzhenxing.github.io.git
 deploy:
   type: git
-  repo: git@github.com:youzhenxing/youzhenxing.github.io.git
+  repo: https://github.com/youzhenxing/youzhenxing.github.io.git
   branch: master
+
